@@ -1,0 +1,70 @@
+{
+  "classification_counts": {
+    "INVALID_OR_NONMAINNET_TARGET": 558,
+    "VALID_MAINNET_TARGET_POW_FAIL": 22
+  },
+  "independently_supported_header_boundaries": 0,
+  "mainnet_pow_passes": 0,
+  "mainnet_provenance_established": false,
+  "network_used": false,
+  "prior_stage_reconciliation": {
+    "G_csv_row_counts": {
+      "R17B2D_G_Header_Windows.csv": 580,
+      "R17B2D_G_Output_SHA256_Manifest.csv": 5,
+      "R17B2D_G_Source_Inventory.csv": 8
+    },
+    "G_directory_found": true,
+    "G_reported_counts": {
+      "$.header_windows_tested": 580
+    },
+    "H_csv_row_counts": {
+      "R17B2D_H_Header_Windows.csv": 580,
+      "R17B2D_H_Output_SHA256_Manifest.csv": 12,
+      "R17B2D_H_Source_Inventory.csv": 4
+    },
+    "H_directory_found": true,
+    "H_reported_counts": {
+      "$.comparison_with_g.g_windows_reported": 580,
+      "$.comparison_with_g.independent_windows": 580,
+      "$.mainnet_pow_pass_count": 0
+    },
+    "automatic_count_agreement": {
+      "G_pow_pass_count": null,
+      "G_window_count": 580,
+      "G_window_count_matches": true,
+      "H_pow_pass_count": 0,
+      "H_window_count": 580,
+      "H_window_count_matches": true,
+      "independent_pow_pass_count": 0,
+      "independent_window_count": 580
+    },
+    "expected_sliding_windows_from_file_lengths": 580,
+    "independently_recomputed_windows": 580,
+    "note": "Prior-stage counts are reported as observed values. Different CSV schemas or row granularities are not assumed equivalent.",
+    "prior_stage_csv_classifications": {
+      "G": {
+        "R17B2D_G_Header_Windows.csv": {
+          "INVALID_COMPACT_TARGET": 544,
+          "VALID_MAINNET_TARGET_POW_FAIL": 36
+        },
+        "R17B2D_G_Source_Inventory.csv": {
+          "JSON_METADATA_NOT_RAW_HEADER": 4
+        }
+      },
+      "H": {
+        "R17B2D_H_Header_Windows.csv": {
+          "INVALID_COMPACT_TARGET": 544,
+          "VALID_TARGET_POW_FAIL": 36
+        }
+      }
+    },
+    "window_count_matches_file_lengths": true
+  },
+  "sliding_window_count": 580,
+  "source_count": 4,
+  "source_files_modified": false,
+  "source_integrity_all_stable": true,
+  "stage": "R17B-2D-I",
+  "unique_source_hash_count": 2,
+  "version": "1.0"
+}
